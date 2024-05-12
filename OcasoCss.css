@@ -1,0 +1,185 @@
+body{
+    
+    overflow: auto;
+    background-image: linear-gradient(to bottom, rgb(0 0 0/ .5),rgb(0 0 0/ .5)),url(./IMAGENES/Fondoapocalipsis.jpg);
+    background-size: cover;
+    margin: 0;
+    height: 100vh;
+    
+}
+
+header{
+    border: solid 10px;
+    border-image-source: url(./IMAGENES/maderaborde1.jpg);
+    border-image-slice: 20;
+    border-image-repeat: repeat;
+    
+    
+}
+article{
+    border: solid black 2px;
+}
+footer{
+    border: solid black 2px;
+}
+h1{
+    display: grid;
+    justify-content: center;
+    color: #fff;
+}
+p{
+    color: #fff;
+    text-align: center;
+    min-width: 200px;
+}
+#DivdeBody{
+    background: linear-gradient(to bottom, rgb(0 0 0 / 1), rgb(0 0 0 / 0.5));
+    width: 65%;
+    left: 15%;
+    position: absolute;
+    
+}
+
+#Headerglobal{
+    height: 140px;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+#botonesHeader1{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+}
+.botonesHeader{
+    background-color: firebrick;
+    width: 13%;
+    height: 40px;
+    border: solid 1px white;
+    transition: all .5s;
+    border-radius: 5px;
+}
+.botonesHeader:hover{
+    cursor: pointer;
+    transition: all .5s;
+    transform: rotate(-3deg) scale(1.3);
+    
+}
+.botonesHeader:active{
+    background-color: white;
+    transition: all .1s;
+    transform: scale(.8);
+}
+#Aside1{
+    background-color: black;
+    border: solid gray 2px;
+    position: fixed;
+    left: 80%;
+    height: 14.7%;
+    z-index: 1;
+    display: grid;
+    align-content: center;
+}
+
+.loginbarra{
+    background-color: aqua;
+}
+
+#NovedadesMain{
+    display: grid;
+    justify-items: center;
+}
+
+#divNovedades{
+    border: solid 2px black;
+    height: 215px;
+    width: 25%;
+    flex-direction: row;
+    justify-items: center;
+}
+#LoreMain{
+    display: grid;
+    justify-items: center;
+}
+#Redeslinksid{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 15px;
+}
+#linksdelasredes{
+    display: flex;
+    margin-bottom: 35px;
+    min-width: 200px;
+    /* width: auto; */
+    justify-content: space-between;
+}
+.linksRedes{
+    background-color: white;
+    height: 25px;
+    width: 60px;
+    border-radius: 5px;
+    display: flex;
+    justify-content: center;
+    font-size: larger;
+    font-style: italic;
+    color: black;
+    outline: 2px solid;
+    outline-color: red;
+    text-decoration: none;
+}
+.linksRedes:active{
+    background-color: blueviolet;
+    transform: scale(0.9);
+}
+#dondeestoyMain{
+    display: grid;
+    justify-items: center;
+    
+}
+#figureDondeestoy{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    
+}
+#dondeestoyimagen{
+    max-width: 360px
+}
+
+
+
+
+.hrdearticulo{
+    border: none;
+    height: 2px;
+    width: 50%;
+    background: radial-gradient(black, white 70%);
+}
+
+#faccionesGeneral{
+    display: grid;
+    justify-content: center;
+    justify-items: center;
+}
+
+#tarjetasfacciones{
+    border: solid 3px black;
+    display: flex;
+    height: 430px;
+    width: 600px;
+}
+.ImagenesTarjeta{
+    width: 0px;
+    flex-grow: 1;
+    object-fit: cover;
+    opacity: .8;
+    transition: .5s ease;
+}
+.ImagenesTarjeta:hover{
+    cursor: pointer;
+    width: 90px;
+    opacity: 1;
+    filter: contrast(120%);
+}

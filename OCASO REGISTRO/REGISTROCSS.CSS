@@ -1,0 +1,63 @@
+body{
+    background-image: url(../IMAGENES/Fondoapocalipsis.jpg) ;
+    background-size: cover;
+    background-repeat: no-repeat;
+    margin: 0;
+    height: 100vh;
+    background-position: center;
+}
+h1{
+    text-align: center;
+    background-color: ghostwhite;
+    border: solid 2px black;
+    width: 210px;
+    left: 225px;
+    position: relative;
+    text-shadow: 4px 4px 5px;
+}
+
+
+#Divregistro{
+    background-color: dimgray;
+    text-align: center;
+    border: solid 4px black;
+    width: 35%;
+    height: 550px;
+}
+#seccionCompleta{
+    display: grid;
+    justify-items: center;
+}
+#pinputs{
+    gap: 5px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+#InputsRegistro{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.inputregister{
+    border: solid 2px black;
+    border-radius: 10px;
+    height: 25px;
+}
+.inputregister:hover{
+    cursor: auto;
+
+}
+#BotonEnviar{
+    border-radius: 10px;
+    height: 30px;
+    width: 31%;
+    position: relative;
+    top: 25px;
+    background-color: lightcyan
+}
+#BotonEnviar:hover{
+    background-color: rgb(128, 240, 133);
+    transition: .8s;
+    cursor: pointer;
+}

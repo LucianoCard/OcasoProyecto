@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ocaso/Registro</title>
+    <link rel="stylesheet" href="./EstiloRegistro.css">
+</head>
+<body>
+
+    <header style="height: 200px;"></header>
+
+    <br>
+
+    <article>
+        <Section id="seccionCompleta">
+            <div id="Divregistro">  
+                    <Form action="../OcasoMain.html" method="post">
+                        <h1>Registrarse</h1>
+                        <div id="InputsRegistro">
+                            <input class="inputregister" type="text" name="Nombre" placeholder="Nombre" required>
+                            <br>
+                            <input class="inputregister" type="text" name="Apellido" placeholder="Apellido">
+                            <br>
+                            <input class="inputregister" type="email" name="email" placeholder="Correo electronico">
+                            <br>
+                            <input class="inputregister" type="password" name="password" placeholder="Contraseña">
+                        </div>
+                        <br>
+
+                        <h1>Fecha de nacimiento</h1>
+                        <input  class="inputregister" type="date" min="1920-01-01" max="2025-01-01" >
+                        <h1>Genero</h1>
+                        <div>
+                            <p id="pinputs">
+                                <label><input type="radio" name="genero" required> Hombre</label>
+                                <br>
+                                <label><input type="radio" name="genero" >Mujer</label>
+                                <br>
+                                <label><input type="radio" name="genero" >Otro</label>
+                                <br>
+                            </p>
+                        </div>
+                        <div id="buttonenviar">
+                        <button type="submit" id="BotonEnviar">Registrar</button>
+                    </div>
+                </Form>
+            </div>
+        </Section>
+</body>
+</html>
