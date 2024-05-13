@@ -1,0 +1,1 @@
+Esto es un proyecto web propio, el cual lo utilizo para aplicar mis conocimientos y que esto mismo funcione para algo y se pueda sacar provecho!, cualquier dato es bienvenido y espero les guste el resultado!
