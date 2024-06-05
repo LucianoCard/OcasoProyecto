@@ -1,7 +1,7 @@
 body{
     
     overflow: auto;
-    background-image: linear-gradient(to bottom, rgb(0 0 0/ .5),rgb(0 0 0/ .5)),url(./IMAGENES/Fondoapocalipsis.jpg);
+    background-image: linear-gradient(to bottom, rgb(0 0 0/ .5),rgb(0 0 0/ .5)),url(./OCASOIMAGENES/Fondoapocalipsis.jpg);
     background-size: cover;
     margin: 0;
     height: 100vh;
@@ -10,7 +10,7 @@ body{
 
 header{
     border: solid 10px;
-    border-image-source: url(./IMAGENES/maderaborde1.jpg);
+    border-image-source: url(./OCASOIMAGENES/maderaborde1.jpg);
     border-image-slice: 20;
     border-image-repeat: repeat;
     
@@ -21,7 +21,12 @@ article{
 }
 footer{
     border: solid black 2px;
+    height: 70px;
+    display: grid;
+    justify-items: center;
+    align-content: center;
 }
+
 h1{
     display: grid;
     justify-content: center;
@@ -182,4 +187,8 @@ p{
     width: 90px;
     opacity: 1;
     filter: contrast(120%);
+}
+#footerID{
+    display: flex;
+    gap: 70px;
 }
