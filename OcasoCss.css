@@ -18,6 +18,10 @@ header{
 }
 article{
     border: solid black 2px;
+    border: solid 10px;
+    border-image-source: url(./OCASOIMAGENES/maderaborde1.jpg);
+    border-image-slice: 20;
+    border-image-repeat: repeat;
 }
 footer{
     border: solid black 2px;
@@ -152,10 +156,6 @@ p{
 #dondeestoyimagen{
     max-width: 360px
 }
-
-
-
-
 .hrdearticulo{
     border: none;
     height: 2px;
